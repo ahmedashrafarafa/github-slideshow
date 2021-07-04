@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="Ahmed Arafa_task4.css">
+    <link rel="icon" type="image/jpg" href="images/youtube-logo-png-46016.png" sizes="50X60">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <nav>
+        
+        <div class="flex_all">
+            
+            <div class="flex">
+                <div id="mySidenav" class="sidenav">
+                    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                    <button class="btn"><i class="fa fa-home"></i> Home</button>
+                    <button class="btn"><i class="fa fa-compass"></i> Explore</button>
+                    <button class="btn"><i class="fa fa-inbox"></i> Subscriptions</button>
+                    <button class="btn"><i class="fa fa-play"></i> Libray</button>
+                    <button class="btn"><i class="fa fa-history"></i> History</button>
+                    <button class="btn"><i class="fa fa-clock-o"></i> Watch later</button>
+                    <button class="btn"><i class="fa fa-bars"></i> Liked Videos</button><hr>
+                    <button class="btn"><i class="fa fa-gamepad"></i> Gaming</button>
+                    <button class="btn"><i class="fa fa-close"></i> Live</button>
+                    <button class="btn"><i class="fa fa-folder"></i> Fashion</button>
+                    <button class="btn"><i class="fa fa-leanpub"></i> Learning</button>
+                    <button class="btn"><i class="fa fa-trophy"></i> Sports</button><hr>
+                    <button class="btn"><i class="fa fa-cog"></i> Settings</button>
+                    <button class="btn"><i class="fa fa-flag"></i> Report</button>
+                    <button class="btn"><i class="fa fa-info-circle"></i> Help</button>
+                    <button class="btn"><i class="fa fa-comments"></i> Feedback</button>
+                    <button class="btn"><i class="fa fa-bars"></i> Menu</button>
+                    <button class="btn"><i class="fa fa-trash"></i> Trash</button>
+                    <button class="btn"><i class="fa fa-close"></i> Close</button>
+                    <button class="btn"><i class="fa fa-folder"></i> Folder</button>
+            
+                </div>
+                <!--<span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>-->
+                <button style="font-size:30px;cursor:pointer" onclick="openNav()" class="voiceBtn"><i class="fa fa-bars"></i></button>
+                <div class="logo"><img src="images/youtube-logo-png-46016.png" alt="logo" width="100px"></div>
+                <div style="color: white;"><strong>YOUTUBE</strong></div>
+                
+            </div>
+            <div class="search">
+                <input type="text" id="search_box" placeholder="search">
+                <button class="searchBtn"><i class="fa fa-search fa-lg"></i></button>
+                <button class="voiceBtn"><i class="fa fa-microphone fa-lg"></i></button>
+            </div>
+
+            <div class="account">
+                <button class="createBtn"><i class="fa fa-video-camera fa-lg"></i></button>
+                <button class="appsBtn"><i class="fa fa-th fa-lg"></i></button>
+                <button class="notificationBtn"><i class="fa fa-bell-o fa-lg"></i></button>
+                <button class="accountBtn"><i class="fa fa-user-circle-o fa-lg"></i></button>
+            </div>
+        </div>
+        <br>
+        <!--
+        <figure>
+            <img src="images/youtube-logo-png-46016.png" width="100px">
+            <figcaption>
+                <label style="color: aliceblue;">YOUTUBE</label>
+            </figcaption>
+        </figure>
+        -->
+        
+        <ul class="list1">
+            <li class="bar"><a class="ahover" href="https://google.com"><b>All</b></a></li>
+            <li class="bar"><a class="ahover" href="https://google.com"><b>Music</b></a></li>
+            <li class="bar"><a class="ahover" href="https://google.com"><b>Stream</b></a></li>
+            <li class="bar"><a class="ahover" href="https://google.com"><b>News</b></a></li>
+            <li class="bar"><a class="ahover" href="https://google.com"><b>Live</b></a></li>
+            <li class="bar"><a class="ahover" href="https://google.com"><b>Review</b></a></li>
+            <li class="bar"><a class="ahover" href="https://google.com"><b>Tech</b></a></li>
+            <li class="bar"><a class="ahover" href="https://google.com"><b>Travel</b></a></li>
+            <li class="bar"><a class="ahover" href="https://google.com"><b>Programming</b></a></li>
+            <li class="bar"><a class="ahover" href="https://google.com"><b>Rubik's</b></a></li>
+            <li class="bar"><a class="ahover" href="https://google.com"><b>Cars</b></a></li>
+            <li class="bar"><a class="ahover" href="https://google.com"><b>News</b></a></li>
+            <li class="bar"><a class="ahover" href="https://google.com"><b>Sports</b></a></li>
+            <li class="bar"><a class="ahover" href="https://google.com"><b>Football</b></a></li>
+            <li class="bar"><a class="ahover" href="https://google.com"><b>Pool</b></a></li>
+            <li class="bar"><a class="ahover" href="https://google.com"><b>Pubg</b></a></li>
+            <li class="bar"><a class="ahover" href="https://google.com"><b>COD</b></a></li>
+            <li class="bar"><a class="ahover" href="https://google.com"><b>News</b></a></li>
+            <li class="bar"><a class="ahover" href="https://google.com"><b>IBM</b></a></li>
+            <li class="bar"><a class="ahover" href="https://google.com"><b>Udacity</b></a></li>
+            <li class="bar"><a class="ahover" href="https://google.com"><b>English</b></a></li>
+            <li class="bar"><a class="ahover" href="https://google.com"><b>COD</b></a></li>
+            <li class="bar"><a class="ahover" href="https://google.com"><b>GTA</b></a></li>
+        </ul>
+    </nav>
+    <div class="flex-images">
+        <div>
+            <figure>
+                <img src="images/image1.jpg" width="420px">
+                <figcaption>
+                    <img class="sub-image" src="images/image1.jpg" alt="Avatar" width="40" height="40px">
+                    <label>this is video 1.<br>1.6M views. 1 year ago</label>
+                </figcaption>
+            </figure>
+        </div>
+        <div>
+            <figure>
+                <img src="images/images.jfif" width="420px" height="240px">
+                <figcaption>
+                    <img class="sub-image" src="images/image1.jpg" alt="Avatar" width="40" height="40px">
+                    <label>this is video 1.</label><br>
+                    <label>1.6M views. 1 year ago</label>
+                </figcaption>
+            </figure>
+        </div>
+        <div>
+            <figure>
+                <img src="images/image1.jpg" width="420px">
+                <figcaption>
+                    <img class="sub-image" src="images/image1.jpg" alt="Avatar" width="40" height="40px">
+                    <label>this is video 1.</label><br>
+                    <label>1.6M views. 1 year ago</label>
+                </figcaption>
+            </figure>
+        </div>
+        <div>
+            <figure>
+                <img src="images/image2.jpg" width="420px">
+                <figcaption>
+                    <img class="sub-image" src="images/image1.jpg" alt="Avatar" width="40" height="40px">
+                    <label>this is video 1.</label><br>
+                    <label>1.6M views. 1 year ago</label>
+                </figcaption>
+            </figure>
+        </div>
+        <div>
+            <figure>
+                <img src="images/image3.jpg" width="420px" height="240px">
+                <figcaption>
+                    <img class="sub-image" src="images/image1.jpg" alt="Avatar" width="40" height="40px">
+                    <label>this is video 1.</label><br>
+                    <label>1.6M views. 1 year ago</label>
+                </figcaption>
+            </figure>
+        </div>
+        <div>
+            <figure>
+                <img src="images/iamge5.jpg" width="420px" height="240px">
+                <figcaption>
+                    <img class="sub-image" src="images/image1.jpg" alt="Avatar" width="40" height="40px">
+                    <label>this is video 1.</label><br>
+                    <label>1.6M views. 1 year ago</label>
+                </figcaption>
+            </figure>
+        </div>
+        <div>
+            <figure>
+                <img src="images/sanfrancisco.jpg" width="420px" height="240px">
+                <figcaption>
+                    <img class="sub-image" src="images/image1.jpg" alt="Avatar" width="40" height="40px">
+                    <label>this is video 1.</label><br>
+                    <label>1.6M views. 1 year ago</label>
+                </figcaption>
+            </figure>
+        </div>
+        <div>
+            <figure>
+                <img src="images/photo-15.jfif" width="420px" height="240px">
+                <figcaption>
+                    <img class="sub-image" src="images/image1.jpg" alt="Avatar" width="40" height="40px">
+                    <label>this is video 1.</label><br>
+                    <label>1.6M views. 1 year ago</label>
+                </figcaption>
+            </figure>
+        </div>
+        <div>
+            <figure>
+                <img src="images/7XtIvo.jpg" width="420px" height="240px">
+                <figcaption>
+                    <img class="sub-image" src="images/image1.jpg" alt="Avatar" width="40" height="40px">
+                    <label>this is video 1.</label><br>
+                    <label>1.6M views. 1 year ago</label>
+                </figcaption>
+            </figure>
+        </div>
+        <div>
+            <figure>
+                <img src="images/download.jfif" width="420px" height="240px">
+                <figcaption>
+                    <img class="sub-image" src="images/image1.jpg" alt="Avatar" width="40" height="40px">
+                    <label>this is video 1.</label><br>
+                    <label>1.6M views. 1 year ago</label>
+                </figcaption>
+            </figure>
+        </div>
+        <div>
+            <figure>
+                <img src="images/image1.jpg" width="420px">
+                <figcaption>
+                    <img class="sub-image" src="images/image1.jpg" alt="Avatar" width="40" height="40px">
+                    <label>this is video 1.</label><br>
+                    <label>1.6M views. 1 year ago</label>
+                </figcaption>
+            </figure>
+        </div>
+        <div>
+            <figure>
+                <img src="images/images.jfif" width="420px">
+                <figcaption>
+                    <img class="sub-image" src="images/image1.jpg" alt="Avatar" width="40" height="40px">
+                    <label>this is video 1.</label><br>
+                    <label>1.6M views. 1 year ago</label>
+                </figcaption>
+            </figure>
+        </div>
+    </div>
+    <script>
+        function openNav() {
+          document.getElementById("mySidenav").style.width = "250px";
+        }
+        
+        function closeNav() {
+          document.getElementById("mySidenav").style.width = "0";
+        }
+        </script>
+</body>
+</html>
